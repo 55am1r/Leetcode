@@ -17,24 +17,32 @@ public class Main {
         Stack<Character> bracketStack = new Stack<Character>();
         boolean finalAns = false;
         for (int i = 0; i < s.length(); i++) {
-
             switch (s.charAt(i)) {
+                case '(':
+                    bracketStack.push('(');
+                    break;
                 case ')':
-                    if (bracketStack.peek() == '(') {
+                    if (bracketStack.search('(') == 1) {
                         bracketStack.pop();
                         finalAns = true;
                         break;
                     }
                     return false;
+                case '[':
+                    bracketStack.push('[');
+                    break;
                 case ']':
-                    if (bracketStack.peek() == ']') {
+                    if (bracketStack.search('[') == 1) {
                         bracketStack.pop();
                         finalAns = true;
                         break;
                     }
                     return false;
+                case '{':
+                    bracketStack.push('{');
+                    break;
                 case '}':
-                    if (bracketStack.peek() == '}') {
+                    if (bracketStack.search('{') == 1) {
                         bracketStack.pop();
                         finalAns = true;
                         break;
