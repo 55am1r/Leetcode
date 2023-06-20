@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.print(isPalindrome(21));
+        System.out.print(isPalindrome(121));
     }
 
     public static boolean isPalindrome(int x) {
