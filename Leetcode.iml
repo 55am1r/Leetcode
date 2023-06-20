@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Easy/#13 Roman to Integer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Easy/#20 Valid Parentheses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Easy/#9 Palindrome Number" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
