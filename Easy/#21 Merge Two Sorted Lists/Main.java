@@ -7,7 +7,7 @@ public class Main {
         // list1.next = new ListNode(2);
         // list1.next.next = new ListNode(4);
 
-        ListNode list2 = new ListNode(1);
+        // ListNode list2 = new ListNode(1);git 
         // list2.next = new ListNode(3);
         // list2.next.next = new ListNode(4);
 
